@@ -1,0 +1,85 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.contacts {
+  width: 280px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .contacts {
+      width: 90%; } }
+  @media (min-width: 1260px) {
+    .contacts {
+      width: 1020px; } }
+  .contacts__title {
+    width: 161px;
+    margin: 0 auto 53px;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -1.5px;
+    color: #000; }
+    @media (min-width: 1260px) {
+      .contacts__title {
+        width: 219px;
+        margin-bottom: 93px;
+        font-size: 48px;
+        line-height: 48px; } }
+  @media (min-width: 700px) {
+    .contacts__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 100px; } }
+  @media (min-width: 1260px) {
+    .contacts__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 0 194px; } }
+  .contacts__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 32px; }
+    @media (min-width: 1260px) {
+      .contacts__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 76px 76px;
+        gap: 0 100px; } }
+  .contacts__item {
+    margin-bottom: 24px; }
+    .contacts__item--second {
+      grid-column: 1;
+      grid-row: 2; }
+    .contacts__item--third {
+      grid-column: 2; }
+  .contacts__item-title {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #9fadc2; }
+  .contacts__item-text {
+    margin: 0; }
+  .contacts__item-link {
+    margin: 0;
+    text-decoration: none;
+    color: #0075ff;
+    outline: none; }
+    .contacts__item-link:hover, .contacts__item-link:focus, .contacts__item-link:active {
+      color: #00f; }
+  .contacts--outer {
+    margin-bottom: 64px; }
+    @media (min-width: 700px) {
+      .contacts--outer {
+        margin-bottom: 88px; } }
+
+/*# sourceMappingURL=contacts.css.map */

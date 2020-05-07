@@ -1,0 +1,94 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.testimonials {
+  width: 280px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .testimonials {
+      width: 95%; } }
+  @media (min-width: 1260px) {
+    .testimonials {
+      width: 1020px; } }
+  .testimonials__title {
+    width: 193px;
+    margin: 0 auto 53px;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -1.5px;
+    color: #000; }
+    @media (min-width: 700px) {
+      .testimonials__title {
+        width: 263px;
+        margin-bottom: 93px;
+        font-size: 48px;
+        line-height: 48px; } }
+  .testimonials__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin: 0 auto 48px; }
+    @media (min-width: 700px) {
+      .testimonials__list {
+        max-width: 1020px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 100px; } }
+    @media (min-width: 1260px) {
+      .testimonials__list {
+        width: 1020px;
+        grid-template-columns: repeat(3, 240px);
+        gap: 0 150px; } }
+  .testimonials__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 48px; }
+    @media (min-width: 700px) {
+      .testimonials__item {
+        margin: 0; } }
+  .testimonials__photo {
+    width: 153px;
+    height: 153px;
+    margin-bottom: 28px;
+    border-radius: 50%; }
+  .testimonials__name {
+    margin: 0 0 4px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #0075ff; }
+  .testimonials__work {
+    margin: 0 0 13px;
+    text-align: center;
+    color: #9fadc2; }
+  .testimonials__text {
+    margin: 0;
+    text-align: center; }
+  .testimonials--outer {
+    margin-bottom: 64px; }
+    @media (min-width: 700px) {
+      .testimonials--outer {
+        margin-bottom: 93px; } }
+
+/*# sourceMappingURL=testimonials.css.map */

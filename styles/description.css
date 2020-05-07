@@ -1,0 +1,63 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.description {
+  width: 280px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .description {
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 0 70px; } }
+  @media (min-width: 1260px) {
+    .description {
+      width: 1020px;
+      grid-template-columns: 330px 500px;
+      gap: 0 192px; } }
+  .description__title {
+    margin: 0 0 48px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: -1.5px; }
+    @media (min-width: 700px) {
+      .description__title {
+        margin: 0;
+        font-size: 48px;
+        line-height: 48px; } }
+  .description__link {
+    text-decoration: none;
+    color: #0075ff;
+    outline: none; }
+    .description__link:hover, .description__link:focus, .description__link:active {
+      color: blue; }
+  .description__article-title {
+    margin: 0 0 16px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0075ff; }
+  .description__article-text {
+    margin: 0 0 25px; }
+  .description--outer {
+    margin-bottom: 64px; }
+    @media (min-width: 700px) {
+      .description--outer {
+        margin-bottom: 152px; } }
+
+/*# sourceMappingURL=description.css.map */

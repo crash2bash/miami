@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+.consultation {
+  width: 280px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .consultation {
+      width: 90%; } }
+  @media (min-width: 1260px) {
+    .consultation {
+      width: 1020px; } }
+  .consultation__title {
+    width: 190px;
+    margin: 0 auto 53px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    text-align: center;
+    color: #000; }
+    @media (min-width: 700px) {
+      .consultation__title {
+        width: 259px;
+        font-size: 48px;
+        line-height: 48px; } }
+  @media (min-width: 700px) {
+    .consultation__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 100px; } }
+  @media (min-width: 1260px) {
+    .consultation__container {
+      grid-template-columns: 412px 413px;
+      gap: 0 194px; } }
+  .consultation__article-title {
+    margin: 0 0 16px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0075ff; }
+  .consultation__article-text {
+    margin: 0 0 32px; }
+    @media (min-width: 700px) {
+      .consultation__article-text {
+        margin: 0; } }
+  .consultation--outer {
+    margin-bottom: 64px; }
+    @media (min-width: 700px) {
+      .consultation--outer {
+        margin-bottom: 152px; } }
+
+/*# sourceMappingURL=consultation.css.map */
